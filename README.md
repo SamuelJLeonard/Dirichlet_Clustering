@@ -10,4 +10,6 @@ It turns out that these Stirling numbers are a coefficient in the distribution o
 
 [This PDF by T. Stepleton](http://www.cs.cmu.edu/~tss/antoniak.pdf) describes why this is the case.
 
+Here's the math I used to prevent computational overflow for this matrix:
 
+$$Stirling1$$
