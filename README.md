@@ -12,4 +12,4 @@ It turns out that these Stirling numbers are a coefficient in the distribution o
 
 Here's the math I used to prevent computational overflow for this matrix:
 
-$$Stirling1$$
+$Stirling1$
