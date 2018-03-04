@@ -10,6 +10,6 @@ It turns out that these Stirling numbers are a coefficient in the distribution o
 
 [This PDF by T. Stepleton](http://www.cs.cmu.edu/~tss/antoniak.pdf) describes why this is the case.
 
-Here's the math I used to prevent computational overflow for this matrix:
+To prevent computational overflow I manipulated the log of the recursive formula.  The result I used is:
 
-$Stirling1$
+log(Stirling(n+1, k) = log(n) + log(Stirling(n, k)) + log( 1 + (1/n) /* exp( log(Stirling(n, k-1)) - log(Stirling(n, k)) ) 
